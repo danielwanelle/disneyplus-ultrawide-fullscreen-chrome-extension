@@ -1,0 +1,18 @@
+{
+    "name": "Ultrawidefy Disney Plus",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Enable fullscreen image cover to disney+ videos when in a ultrawide monitor, keeping the subtitles",
+    "content_scripts": [
+        {
+            "js": ["init.js"],
+            "matches": ["*://www.disneyplus.com/en-gb/video/*"]
+        }
+    ],
+    "icons": {
+        "16": "/images/logo-disneyplus-16.png",
+        "32": "/images/logo-disneyplus-32.png",
+        "48": "/images/logo-disneyplus-48.png",
+        "128": "/images/logo-disneyplus-128.png"
+    }
+}
